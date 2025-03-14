@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Database</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f0f2f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            color:#e20c0c;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .movie-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .movie-table th {
+            background: #e20c0c;
+            color: white;
+            padding: 15px;
+            text-align: left;
+        }
+        .movie-table td {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        .movie-table tr:hover {
+            background: #f5f5f5;
+        }
+        .actors-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .query-section {
+            margin-top: 40px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .query-result {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Database</h1>
+        <table class="movie-table">
+            <tr>
+                <th>ID</th>
+                <th>Movie Title</th>
+                <th>Director</th>
+                <th>Year</th>
+                <th>Actors</th>
+            </tr>
+            <!-- Movie 1 -->
+            <tr>
+                <td>1</td>
+                <td>Avengers: Endgame</td>
+                <td>Anthony and Joe Russo</td>
+                <td>2019</td>
+                <td>
+                    <ul class="actors-list">
+                        <li>Robert Downey Jr.</li>
+                        <li>Chris Evans</li>
+                        <li>Scarlett Johansson</li>
+                    </ul>
+                </td>
+            </tr>
+            <!-- Movie 2 -->
+            <tr>
+                <td>2</td>
+                <td>Spider-Man: No Way Home</td>
+                <td>Jon Watts</td>
+                <td>2021</td>
+                <td>
+                    <ul class="actors-list">
+                        <li>Tom Holland</li>
+                        <li>Zendaya</li>
+                        <li>Benedict Cumberbatch</li>
+                    </ul>
+                </td>
+            </tr>
+            <!-- Movie 3 -->
+            <tr>
+                <td>3</td>
+                <td>Black Phanter</td>
+                <td>Ryan Coogler</td>
+                <td>2018</td>
+                <td>
+                    <ul class="actors-list">
+                        <li>Chadwick Boseman</li>
+                        <li>Michael B. Jordan</li>
+                        <li>Lupita Nyong'o</li>
+                    </ul>
+                </td>
+            </tr>
+            <!-- Movie 4 -->
+            <tr>
+                <td>4</td>
+                <td>Iron Man</td>
+                <td>Jon Favreau</td>
+                <td>2008</td>
+                <td>
+                    <ul class="actors-list">
+                        <li>Robert Downey Jr.</li>
+                        <li>Gwyneth Paltrow</li>
+                        <li>Jeff Bridges</li>
+                    </ul>
+                </td>
+            </tr>
+            <!-- Movie 5 -->
+            <tr>
+                <td>5</td>
+                <td>Thor: Ragnarok</td>
+                <td>Taika Waititi</td>
+                <td>2017</td>
+                <td>
+                    <ul class="actors-list">
+                        <li>Chris Hemsworth</li>
+                        <li>Tom Hiddleston</li>
+                        <li>Cate Blanchett</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <div class="query-section">
+            <h2>XPath Query Results</h2>
+            
+            <h3>All Movie Titles:</h3>
+            <div class="query-result">
+                <div>Avengers: Endgame</div>
+                <div>Spider-Man: No Way Home</div>
+                <div>Black Phanter</div>
+                <div>Iron Man</div>
+                <div>Thor: Ragnarok</div>
+            </div>
+
+            <h3>Director of the Second Movie:</h3>
+            <div class="query-result">
+                <div>Jon Watts</div>
+            </div>
+
+            <h3>Actors of the Fourth Movie:</h3>
+            <div class="query-result">
+                <div>Robert Downey Jr.</div>
+                <div>Gwyneth Paltrow</div>
+                <div>Jeff Bridges</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

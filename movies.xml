@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="movies.xsl"?>
+<movies>
+    <movie id="1">
+        <movieTitle>Avengers: Endgame</movieTitle>
+        <director>Anthony and Joe Russo</director>
+        <year>2019</year>
+        <actors>
+            <actor>Robert Downey Jr.</actor>
+            <actor>Chris Evans</actor>
+            <actor>Scarlett Johansson</actor>
+        </actors>
+    </movie>
+    <movie id="2">
+        <movieTitle>Spider-Man: No Way Home</movieTitle>
+        <director>Jon Watts</director>
+        <year>2021</year>
+        <actors>
+            <actor>Tom Holland</actor>
+            <actor>Zendaya</actor>
+            <actor>Benedict Cumberbatch</actor>
+        </actors>
+    </movie>
+    <movie id="3">
+        <movieTitle>Black Panther</movieTitle>
+        <director>Ryan Coogler</director>
+        <year>2018</year>
+        <actors>
+            <actor>Chadwick Boseman</actor>
+            <actor>Michael B. Jordan</actor>
+            <actor>Lupita Nyong'o</actor>
+        </actors>
+    </movie>
+    <movie id="4">
+        <movieTitle>Iron Man</movieTitle>
+        <director>Jon Favreau</director>
+        <year>2008</year>
+        <actors>
+            <actor>Robert Downey Jr.</actor>
+            <actor>Gwyneth Paltrow</actor>
+            <actor>Jeff Bridges</actor>
+        </actors>
+    </movie>
+    <movie id="5">
+        <movieTitle>Thor: Ragnarok</movieTitle>
+        <director>Taika Waititi</director>
+        <year>2017</year>
+        <actors>
+            <actor>Chris Hemsworth</actor>
+            <actor>Tom Hiddleston</actor>
+            <actor>Cate Blanchett</actor>
+        </actors>
+    </movie>
+</movies>
